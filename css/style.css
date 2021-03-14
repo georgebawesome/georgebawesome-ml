@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
 body {
   padding: 0px;
   margin: 0px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://ik.imagekit.io/designsproweb/web/img/1_9M9Y5OPEi6z.png") center center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/bg.jpg") center center;
   background-size: cover;
   width: 100vw;
   height: 100vh;
