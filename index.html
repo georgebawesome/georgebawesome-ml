@@ -461,7 +461,7 @@
       <h2>Let me to Turn your Ideas to Websites</h2>
       <p>
 
-      <form name="contact"  data-netlify="true" method="POST">
+      <form name="contact"  data-netlify="true" method="POST" netlify-honeypot="bot-field">
 
         <input type="text" name="name" placeholder="Name" required>
         <input type="email" name="email" placeholder="Email" required>
@@ -469,24 +469,6 @@
         <button type="submit" class="btn_two">Send</button>
 
       </form>
-<script>
-
-document.querySelector("form").addEventListener("submit", handleSubmit);
-
-const handleSubmit = (e) => {
-  e.preventDefault()
-  let myForm = document.getElementById('pizzaOrder');
-  let formData = new FormData(myForm)
-  fetch('/', {
-    method: 'POST',
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString()
-  }).then(() => console.log('Form successfully submitted')).catch((error) =>
-    alert(error))
-}
-
-
-</script>
       </p>
     </section>
     <section>
