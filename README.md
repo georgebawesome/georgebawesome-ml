@@ -1,1 +1,1 @@
-My web design portfolio hosted on Cloudflare Pages.
+My web design portfolio hosted on Netlify.
