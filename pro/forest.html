@@ -1,72 +1,77 @@
-
-<title>CSS/JS Forest Animation</title>
+<title>
+	CSS/JS Forest Animation</title>
 
 <link rel="icon" type="image/png" sizes="16x16" href="https://ik.imagekit.io/designsproweb/georgebawesome-ml/img/favicon-32x32_8HxTpbCp3sn_1_.webp">
-
 <style>
-  html {
-	touch-action: none;
-	content-zooming: none;
-}
 
-body {
-	background:#000;
-	margin: 0;
-	padding: 0;
-	touch-event: none;
-	overflow: hidden;
-}
+	html {
+		touch-action: none;
+		content-zooming: none;
+	}
 
-#screen {
-	position:absolute;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	perspective: 400px;
-	perspective-origin: center;
-	cursor: pointer;
-}
+	body {
+		background: #000;
+		margin: 0;
+		padding: 0;
+		touch-event: none;
+		overflow: hidden;
+	}
 
-#cube img:nth-child(1) {
-	transform:translateZ(-199px);
-}
-#cube img:nth-child(2) {
-	transform:rotateY(90deg) translateZ(-199px);
-}
-#cube img:nth-child(3) {
-	transform:rotateY(-90deg) translateZ(-199px);
-}
-#cube img:nth-child(4) {
-	transform:rotateX(-90deg) translateZ(-199px);
-}
-#cube img:nth-child(5) {
-	transform:rotateX(90deg) translateZ(-199px);
-}
-#cube img:nth-child(6) {
-	transform:rotateY(180deg) translateZ(-199px);
-}
+	#screen {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		perspective: 400px;
+		perspective-origin: center;
+		cursor: pointer;
+	}
 
-#cube {
-	position:absolute;
-	width:400px;
-	height:400px;
-	margin: auto;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	transform-style: preserve-3d;
-	transform:  translateZ(400px);
-}
+	#cube img:nth-child(1) {
+		transform: translateZ(-199px);
+	}
 
-#cube img {
-	position:absolute;
-	pointer-events:none;
-	width:100%;
-	height:100%;
-	backface-visibility: hidden;
-}
-  </style>
+	#cube img:nth-child(2) {
+		transform: rotateY(90deg) translateZ(-199px);
+	}
+
+	#cube img:nth-child(3) {
+		transform: rotateY(-90deg) translateZ(-199px);
+	}
+
+	#cube img:nth-child(4) {
+		transform: rotateX(-90deg) translateZ(-199px);
+	}
+
+	#cube img:nth-child(5) {
+		transform: rotateX(90deg) translateZ(-199px);
+	}
+
+	#cube img:nth-child(6) {
+		transform: rotateY(180deg) translateZ(-199px);
+	}
+
+	#cube {
+		position: absolute;
+		width: 400px;
+		height: 400px;
+		margin: auto;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		transform-style: preserve-3d;
+		transform: translateZ(400px);
+	}
+
+	#cube img {
+		position: absolute;
+		pointer-events: none;
+		width: 100%;
+		height: 100%;
+		backface-visibility: hidden;
+	}
+</style>
 
 <div id="screen">
 
@@ -160,5 +165,3 @@ const run = () => {
 
 run();
 </script>
-
-<script type='text/javascript' src='//pl16306333.achievablecpmrevenue.com/44/29/e0/4429e0496a50f10c9ddfef7f81c12121.js'></script>

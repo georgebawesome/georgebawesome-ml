@@ -1,116 +1,115 @@
-
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
-	
-	
-<script>window.adk_pdisp = {'h' : 'xml.adop.co',  'f': 314387,  'ps': [3],  'cin': 4,  's': 'p314387',  'q': [],  't': 1};</script><script src='//static.adop.co/tabu/display.js'/></script>
-    <!-- Le Basic Page Needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>
-        
-            Get Weather Info &middot; Get Weather Info
-        
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <script type="text/javascript">
-        var host = "getweather.info";
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+	<!-- Le Basic Page Needs
+    ================================================== -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>
+
+		Get Weather Info &middot; Get Weather Info
+
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<script type="text/javascript">
+		var host = "getweather.info";
         if ((host == window.location.host) && (window.location.protocol != "https:"))
             window.location.protocol = "https";
-    </script>
+	</script>
 
-    <!-- Le Meta Data -->
-    <meta content="Get Weather Info" property="og:site_name">
-    <meta content="Get Weather Info" property="og:title">
-    <meta content="website" property="og:type">
-    <meta content="Get weather in your location." property="og:description">
-    <meta name="keywords" content="weather, temperature, heat, cold, snow, rain">
-    
-    
-    <meta content="https://getweather.info/images/logo.png" property="og:image">
-    
-    
-    <meta name="twitter:description" content="This is a simple css and javascript weather script that pulls data from DarkSky.net forecast api.">
-    
+	<!-- Le Meta Data -->
+	<meta content="Get Weather Info" property="og:site_name">
+	<meta content="Get Weather Info" property="og:title">
+	<meta content="website" property="og:type">
+	<meta content="Get weather in your location." property="og:description">
+	<meta name="keywords" content="weather, temperature, heat, cold, snow, rain">
 
-    <!-- Le App Banner Data -->
-    <meta name="apple-itunes-app" content="app-id=1245521413">
-    <!--<meta name="apple-itunes-app" content="app-id=1245521413, affiliate-data=myAffiliateData, app-argument=myURL">-->
 
-    <!-- Le Mobile Specific Metas
+	<meta content="https://getweather.info/images/logo.png" property="og:image">
+
+
+	<meta name="twitter:description" content="This is a simple css and javascript weather script that pulls data from DarkSky.net forecast api.">
+
+
+	<!-- Le App Banner Data -->
+	<meta name="apple-itunes-app" content="app-id=1245521413">
+	<!--<meta name="apple-itunes-app" content="app-id=1245521413, affiliate-data=myAffiliateData, app-argument=myURL">-->
+
+	<!-- Le Mobile Specific Metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Le CSS
+	<!-- Le CSS
     ================================================== -->
-    <link rel="stylesheet" href="https://getweather.info/style/vendor/library.min.css">
-    <link rel="stylesheet" href="https://getweather.info/style/core/style.min.css">
+	<link rel="stylesheet" href="https://getweather.info/style/vendor/library.min.css">
+	<link rel="stylesheet" href="https://getweather.info/style/core/style.min.css">
 
-    <!-- Le IE Conditionals
+	<!-- Le IE Conditionals
     ================================================== -->
-    <!--[if lt IE 9]>
+	<!--[if lt IE 9]>
 	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le Javascript Pre-loads
+	<!-- Le Javascript Pre-loads
     ================================================== -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 
-    <!-- Le Page Specific Codes
+	</script>
+
+	<!-- Le Page Specific Codes
     ================================================== -->
-    
+
 
 	<!-- Le Favicons
 	================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://getweather.info/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://getweather.info/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://getweather.info/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="https://getweather.info/images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="https://getweather.info/images/favicon/safari-pinned-tab.svgg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://getweather.info/images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://getweather.info/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://getweather.info/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="https://getweather.info/images/favicon/site.webmanifest">
+	<link rel="mask-icon" href="https://getweather.info/images/favicon/safari-pinned-tab.svgg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body id="landing">
-<div class="page-container">
-    <div id="homePage">
-        <main>
-            
-<!-- weather! -->
-<div id="weather-box">
-    <div class="row">
-        <div class="col-md-5 col-lg-5 col-xl-4 left">
-            <div class="location">
-                <div>
-                    <div id="location"></div>
-                    <div id="time"></div>
-                </div>
-            </div>
+	<div class="page-container">
+		<div id="homePage">
+			<main>
 
-            <div id="weather" class="temperature">
-                <canvas id="icon0" width="128" height="128"></canvas>
-                <div>
-                    <div id="temperature-holder">
-                        <div id="temperature"></div>
-                        <div id="temperature-format">
-                            <a id="changeFormat" href="javascript:void(0);">°C</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+				<!-- weather! -->
+				<div id="weather-box">
+					<div class="row">
+						<div class="col-md-5 col-lg-5 col-xl-4 left">
+							<div class="location">
+								<div>
+									<div id="location"></div>
+									<div id="time"></div>
+								</div>
+							</div>
 
-            <div id="additional">
-                <div class="row">
-                    <div class="col-lg-6 pt-2 pb-2">
-                        <div>
-                            Visibility:
-                            <span id="summary"></span>
+							<div id="weather" class="temperature">
+								<canvas id="icon0" width="128" height="128"></canvas>
+								<div>
+									<div id="temperature-holder">
+										<div id="temperature"></div>
+										<div id="temperature-format">
+											<a id="changeFormat" href="javascript:void(0);">°C</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div id="additional">
+								<div class="row">
+									<div class="col-lg-6 pt-2 pb-2">
+										<div>
+											Visibility:
+											<span id="summary"></span>
                         </div>
                     </div>
                     <!-- precipitation -->
