@@ -30,7 +30,9 @@
 
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link rel="stylesheet" type="text/css" href="/css/fawe.css">
+  <link rel="stylesheet" type="text/css" href="/css/fawe.css">
+  <link rel="stylesheet" type="text/css" href="/css/cookie.css">
+
 	<link rel="stylesheet" type="text/css" href="/css/works.css">
 
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Josefin+Sans" loading="lazy">
@@ -231,11 +233,7 @@
           <div class="w3-third w3-stretch">
 
             <div class="w3-white w3-text-grey w3-card-4">
-              <div class="w3-display-container">
-                <img src="./gb.png" style="width:100%;max-width:400px;
-  height:auto;" alt="George Bobby" loading="lazy">
-              </div>
-              <div class="w3-container">
+                            <div class="w3-container">
                 <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-black"></i>Designer</p>
                 <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-black"></i>Poonjar, India</p>
                 <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-black"></i>+91 97460 95420</p>
@@ -409,10 +407,20 @@
     </section>
   </div>
  
+  <p id="cookie-notice">This website uses cookies to ensure you get the best experience on our website<br><button onclick="acceptCookie();">Got it!</button></p>
   <script src="/js/index.js" defer="defer"></script>
   <script src="/js/particles.js"></script>
   <script src="/js/app.js" type="text/javascript" defer="defer"></script>
   <script src="//code.tidio.co/vnv81rhqswc1ci63pisvm28tkvtdpsib.js" async></script>
+
+
+  <script>
+    function acceptCookie() {
+      document.cookie = "cookieaccepted=1; expires=Thu, 18 Dec 2030 12:00:00 UTC; path=/", document.getElementById("cookie-notice").style.visibility = "hidden"
+    }
+    document.cookie.indexOf("cookieaccepted") < 0 && (document.getElementById("cookie-notice").style.visibility = "visible");
+  </script>
+
 
 </body>
 
